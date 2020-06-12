@@ -76,8 +76,8 @@
    - Discussion
    - Calling the questions
 - Links to the mailing list, draft charter if any, relevant Internet-Drafts, etc.
-   - Mailing List: https://www.ietf.org/mailman/listinfo/example
-   - Draft charter: https://datatracker.ietf.org/doc/charter-ietf-EXAMPLE/
+   - Mailing List: (not yet)
+   - Draft charter: https://github.com/one-data-model/ietf108/blob/master/charter.md
    - Relevant drafts:
       - Use Cases:
          - (no draft, see https://onedm.org and https://onedm.org/faq for info)
