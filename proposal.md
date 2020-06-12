@@ -26,7 +26,7 @@
   currently doing this in their own ways, it made sense to develop a
   single way to describe models.  Over a little more than a year, the
   Semantic Definition Format (SDF) was created, which can represent
-  IoT Things, their composition into reusable Objects, their
+  IoT Things, their composition from reusable Objects, their
   Interaction Affordances (Properties, Actions, Events), and the data
   models relevant to describe these Affordances.  SDF is representing
   these models in JSON.  This allows re-use of specification formats
