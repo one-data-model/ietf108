@@ -1,6 +1,7 @@
 ==== ASDF (BOF agenda) ====
 
 - Agenda
+  - Goals of this BOF
   - Brief introduction into OneDM
   - SDF Introduction
   - Views of contributing ecosystems (e.g., OCF, OMA LwM2M, ...)
@@ -10,7 +11,6 @@
    - More complex data models that SDF does not deal with
      - "Enum" problem
      - What could be done?
-   - Charter presentation
    - Discussion: please explain your objections to this work.
    - Not looking at Charter text *today*
    - Calling the questions
