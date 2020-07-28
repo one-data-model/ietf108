@@ -38,9 +38,9 @@
 
 ## ASDF
 
-  The objective of the ASDF WG will be to work with OneDM and its
-  contributing organizations and develop SDF to an IETF-quality
-  specification for Thing Interaction and Data Modelling.  On the way
+  The objective of the ASDF WG is to develop SDF to an IETF-quality
+  specification for Thing Interaction and Data Modelling, working with
+  experts from OneDM and its contributing organizations.  On the way
   to that specification, further functionality requirements will be
   addressed that emerge in the usage of SDF for model harmonization.
 
