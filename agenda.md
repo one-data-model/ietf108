@@ -25,5 +25,3 @@ AGENDA:
 5) Discussion (beyond clarifying questions) [30 minutes]
 
 6) Calling the questions [10 minutes]
-
-
