@@ -76,7 +76,7 @@
    - Discussion
    - Calling the questions
 - Links to the mailing list, draft charter if any, relevant Internet-Drafts, etc.
-   - Mailing List: (not yet)
+   - Mailing List: https://www.ietf.org/mailman/listinfo/asdf
    - Draft charter: https://github.com/one-data-model/ietf108/blob/master/charter.md
    - Relevant drafts:
       - Use Cases:
