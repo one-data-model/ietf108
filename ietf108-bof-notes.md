@@ -22,6 +22,12 @@ BLUE SHEET WILL BE TAKEN BY MEETECHO.
 
 97 people in jabber room
 
+Chairs: Niklas Widell and Michael Richardson
+
+Notetakers: Ari Keränen and Jaime Jiminéz
+
+Jabber scribe: Michael Richardson
+
 
 ## AGENDA:
 1) Welcome and Note Well
@@ -108,7 +114,7 @@ CB: we have asdf mailing list where could discuss this and have other people par
 6) Calling the questions [10 minutes]
 
 NW (as chair): was  also asked in Jabber why not WG forming BoF. There was wish to see more industry support for this. That's why had lined up industry folks here. This work has been progressing and is reasonably mature. Don't hear any disagreement -- Barry to comment as AD?
-Barry Leiba: going well. Let's get sense whether people think IETF is the right place to do this
+Barry Leiba (BL): going well. Let's get sense whether people think IETF is the right place to do this
 
 HUM: IF YOU WILL PARTICIPATE IN THIS WORK, please HUM
 (in jabber: a few. Plus FORTISSIMO result)
@@ -146,7 +152,7 @@ BL: this came from BoF approval call; perhaps remember there were some concerns 
 
 CJ: agree with the plan!
 
-Pete Resnick: seems there's charter in back pocket to work on.  Anything controversial there? Any particular issues where need input? 
+Pete Resnick (PR): seems there's charter in back pocket to work on.  Anything controversial there? Any particular issues where need input? 
 
 CB: maybe we should show the charter (even if against protocol). 
 
