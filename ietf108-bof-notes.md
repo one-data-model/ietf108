@@ -24,7 +24,7 @@ BLUE SHEET WILL BE TAKEN BY MEETECHO.
 
 Chairs: Niklas Widell and Michael Richardson
 
-Notetakers: Ari Keränen and Jaime Jiminéz
+Notetakers: Ari Keränen and Jaime Jiménez
 
 Jabber scribe: Michael Richardson
 
@@ -58,7 +58,7 @@ Cullen Jennings (CJ): could you say a bit more about what those things are?
 CB: JSON schema org the most daring. Using that to define the data schemas. Some others too, but will have to look
 CJ: close enough, thanks!
 
-- We can also still change SDF. It's not rubber stamping. OneDM is working on harmonizing things. Possible to work witht he contributing orgs to develop SDF. Right now things are still wide open. SDF will interact with tools. 
+- We can also still change SDF. It's not rubber stamping. OneDM is working on harmonizing things. Possible to work with the contributing orgs to develop SDF. Right now things are still wide open. SDF will interact with tools. 
 
 Andre Bondi (AB): Question on the inclusion of performance characteristics. It would be useful to know about performance and communication pattern requirements. If have centralized way to collect, we can understand what is the burden in the central controller. How stringent response time requirements. Other non-functional requirements?
 CB: interesting idea, maybe not that easy to capture non-functional requirements. It could be useful if we manage to do it. 
@@ -80,14 +80,14 @@ CE: Tooling was indeed very important for YANG and we have also seen it to be ve
 CB: some of these tools have been made at IETF/WISHI hackathons. We have built components that went into those tools.
 
 4) Views of contributing ecosystems (Bluetooth, OCF, OMA [LwM2M], Zigbee) and
-   a few interested vendors (…); clarifying questions [20 minutes]
+   a few interested vendors (...); clarifying questions [20 minutes]
 
-- Alan Soloway (AS) presenting the OMA BoD pov. Overview of the orgs (DM and IPSO) and Liason Statement signataries that support to the OneDM work. BSD-3 clause license is also already. Presenting a tool that translates from SDF to LwM2M. 
+- Alan Soloway (AS) presenting the OMA BoD pov. Overview of the orgs (DM and IPSO) and Liason Statement signataries that support to the OneDM work. BSD-3 clause license is also already. Presenting a tool that translates between SDF and LwM2M models. 
 - Michael Koster (MK) presenting the pov of Zigbee alliance (BoD) and Project CHIP (Steering committe). Zigbee Use Cases; need to provide a friendlier entry point than XML for the Cluster libraries and SDF would be a good match. 
 - Wouter van der Beek (WB) presenting OCFs pov. BSD-3 clause license is also already. Created a conversion tool between OCF and SDF. Liason endorsing the work on public website.
-- Szymon Slupik (SS) precenting bluetooth pov (chair of Bluetooth SIG mesh WG). A focus area on smart buildings, which they believe that it is good match for SDF work. Bluetooth SIG endorses this work. They are alooking into using SDF as the native environment to represent data models. 
+- Szymon Slupik (SS) presenting Bluetooth pov (chair of Bluetooth SIG mesh WG). A focus area on smart buildings, which they believe that it is good match for SDF work. Bluetooth SIG endorses this work. They are looking into using SDF as the native environment to represent data models. 
 - MK presenting uses cases from the SmartThings pov. Objective is to use SDF for device integration, capability model, 3rd party API integration; using swagger and WoT for it.
-- Ari Keranen (AK) from Ericsson pov. Ericsson uses SDF, see it as a valuable tool to reduce integration costs. Having a common language that would reduce the cost. Another use is to using SDF together with LwM2M/IPSO. Already have contributions with tools for model development and translation.
+- Ari Keränen (AK) from Ericsson pov. Ericsson sees SDF as a valuable tool to reduce integration costs. For developers having a common language for provisioning data sources from different ecosystems is particularly interesting. Another use currently exploring is to enable applications to use the LwM2M protocol and IPSO models together with other protocols and data models in the same application with unified semantics. Already have contributions with tools for model development and translation.
 
 5) Discussion (beyond clarifying questions) [30 minutes]
 
@@ -97,7 +97,7 @@ Do we have energy to do this?
 Should it be done in IETF?
 
 
-CJ: Regarding change control. How much are we open to significantly change SDF? Or people want to give it largely as is. Is this starting point or close to done?
+CJ: Regarding change control. How much are we open to significantly change SDF? Or people want to keep it largely as is. Is this starting point or close to done?
 CB: This spec is actually and unusually open-to-change specification. People usually don't directly write SDF but use tools to translate to/from. We did sweeping changes leading to 1.0 and was relatively painless. Not free to do, but certainly possible.
 AS: The answer is actually "both". It is a well-stablished floor in which we can start evolution. We have a great foundation but we need to work on it to evolve.
 Michael Richardson (MR): Kinda inheritance (?)
@@ -113,7 +113,7 @@ CB: we have asdf mailing list where could discuss this and have other people par
 
 6) Calling the questions [10 minutes]
 
-NW (as chair): was  also asked in Jabber why not WG forming BoF. There was wish to see more industry support for this. That's why had lined up industry folks here. This work has been progressing and is reasonably mature. Don't hear any disagreement -- Barry to comment as AD?
+NW (as chair): was also asked in Jabber why this is not WG forming BoF. There was wish to see more industry support for this. That's why had lined up industry folks here. This work has been progressing and is reasonably mature. Don't hear any disagreement -- Barry to comment as AD?
 Barry Leiba (BL): going well. Let's get sense whether people think IETF is the right place to do this
 
 HUM: IF YOU WILL PARTICIPATE IN THIS WORK, please HUM
@@ -144,15 +144,15 @@ NW: OneDM folks, as Carsten stated, think IETF is the right place. If we want to
 
 {mic line empty on alternatives}
 
-NW: still needs charter etc, but as I see it there's no enthusiasm  to discuss alternative places to do this.
+NW: still needs charter etc, but as I see it there's no enthusiasm to discuss alternative places to do this.
 
-CJ: has been really well run bof and  convincing. Why not have the charter discussion here and now?
+CJ: has been really well run bof and convincing. Why not have the charter discussion here and now?
 
-BL: this came from BoF approval call; perhaps remember there were some concerns about industry pick-up on this. If there's broad interest. Approved as non-WG forming BoF with that in mind. Sounds to me it's pretty clear we should send charte to list, finalize that, and get it to me.
+BL: this came from BoF approval call; perhaps remember there were some concerns about industry pick-up on this and if there's broad interest. Approved as non-WG forming BoF with that in mind. Sounds to me it's pretty clear we should send charter to list, finalize that, and get it to me.
 
 CJ: agree with the plan!
 
-Pete Resnick (PR): seems there's charter in back pocket to work on.  Anything controversial there? Any particular issues where need input? 
+Pete Resnick (PR): seems there's charter in back pocket to work on. Anything controversial there? Any particular issues where need input? 
 
 CB: maybe we should show the charter (even if against protocol). 
 
@@ -160,20 +160,20 @@ https://github.com/one-data-model/ietf108/blob/master/charter.md
 
 PR: no need for details; anything you think need group input? Anything in particular need help with?
 
-CB: interesting thing in this work -- Last 3 paragraphs. Interesting thing of SDF: stew of different technologies. Input coming from various places. Some can be handled separately, like JSON path. Don't know yet if need it beyond discovery. Things like how we do data modeling and interaction modeling parts. Hope we can handle all the questions in the WG. Sometimes IESG wants decisions made before WG is formed so that WG doesn't get blocked by bike shed discussions but don't see that as problem here. Way we got to SDF 1.0 was very constructive process. Some WG and RG relationships, like CBOR for CDDL specs, formal description languages RG, etc.
+CB: Last 3 paragraphs. Interesting thing of SDF: stew of different technologies. Input coming from various places. Some can be handled separately, like JSON path. Don't know yet if need it beyond discovery. Things like how we do data modeling and interaction modeling parts. Hope we can handle all the questions in the WG. Sometimes IESG wants decisions made before WG is formed so that WG doesn't get blocked by bike shed discussions but don't see that as problem here. Way we got to SDF 1.0 was very constructive process. Some WG and RG relationships, like CBOR for CDDL specs, formal description languages RG, etc.
 
-BL: only thing  that strikes is to  "work with OneDM and contributing orgs" will get questions  from IESG. Also concerns about there being representatives that say "OneDM says this" rather than individuals working on this.  Re-spinning that might be useful cosidering how  IETF works. PRefer to have people who care to be in the  WG doing the work.
+BL: only thing that strikes is to "work with OneDM and contributing orgs". Will get questions from IESG. Also concerns about there being representatives that say "OneDM says this" rather than individuals working on this. Re-spinning that might be useful cosidering how IETF works. Prefer to have people who care to be in the  WG doing the work.
 
 CB: yes, don't want to do this based on liaison statements. Limited usefulness with LSs. That text should be changed, agree.
 
 NW: Please sign up for the ASDF list (asdf@ietf.org) and for the charter discussions if you have interest on this. So at this point we have a plan forward. 
 
-CB: if you are interested in SDF there are various  tutorial resources you  can use. One in my youtube channel. There's onedm.org as landing page for info about OneDM. Also find github repos for various models. All work in progress, not finished. Needs lots of work but a good way to get familiarized with this.
+CB: if you are interested in SDF there are various tutorial resources you can use. One in my youtube channel. There's onedm.org as landing page for info about OneDM. Also find github repos for various models. All work in progress, not finished. Needs lots of work but a good way to get familiarized with this.
 
 Georgios Karagiannis (GK): I'd like to know whether we have looked into other SDOs like OneM2M and W3C. Have looked at what has been done there?
 CB: Yes. Have even slide about W3C at the backup materials.
 
-MK: as individuals and also as org have worked with the W3C WoT group. We are focusing on the domain specific vocabularies that are explicitly excluded from WoT. Metamodel very much aligned. W3C plugfest has been using OneDM definitions in thing descriptions. TD applies descriptions to over the wire data formats.
+MK: as individuals and also as org have worked with the W3C Web of Things (WoT) group. We are focusing on the domain specific vocabularies that are explicitly excluded from WoT. Metamodel very much aligned. W3C plugfest has been using OneDM definitions in thing descriptions. TD applies descriptions to over the wire data formats.
 
 GK: agreement between W3C and OneDM?
 MK: yes, currently working on concept called TD templates that can make TDs composable together with OneDM definitions. Also other intersections like discovery: the terminology used can be OneDM URIs. Also other vocabulariess like iotschema can be used. 
@@ -181,7 +181,7 @@ GK: and OneM2M
 MK: OneM2M was involved early on but had to partition the work due to Huawei issue. But now not issue. OneM2M is potentially part of this. Also modeling part of OneM2M and OneDM has another potential intersection.
 GK: also agreement here?
 MK: was early on but has not been lot of participation. Now being open and everyone can participate we need to get OneM2M back to participating.
-CB: T2TRG has been  organizing number of informal events where we bring people from SDOs and orgs together. Have had lots of common events with W3C WoT. WoT is bit of sister org of T2TRG. Next WISHI call day after tomorrow where we talk with MSFT about DTDL. Another language we want to take with SDF. Will have discussion there. Coordinates in T2TRG mailing list; can send invite to ASDF list too. 
+CB: T2TRG has been organizing number of informal events where we bring people from SDOs and orgs together. Have had lots of common events with W3C WoT. WoT is bit of sister org of T2TRG. Next WISHI call day after tomorrow where we talk with Microsoft about DTDL. Another language we want to take with SDF. Will have discussion there. Coordinates in T2TRG mailing list; can send invite to ASDF list too. 
 
 https://github.com/t2trg/wishi/wiki/Agenda-items#wishi-online-meeting
 
