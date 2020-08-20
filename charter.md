@@ -44,13 +44,6 @@
   to that specification, further functionality requirements will be
   addressed that emerge in the usage of SDF for model harmonization.
 
-  In the process, some smaller pieces may become usable independently
-  from SDF itself and its applications.  JSON Path (similar to, but
-  different in scope from JSON Pointer documented in RFC6901) might be
-  an example for such a spin-off specification -- it is currently
-  defined on a website and would benefit from a more formal definition
-  so it can be used in discovery processes involving SDF models.
-
   The ASDF WG will work closely with the CBOR WG, home of the CDDL
   specification.  It will also engage the still active mailing list of
   the dormant JSON WG.  Recent proposals to form an IRTF formal
