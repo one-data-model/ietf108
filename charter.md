@@ -56,3 +56,19 @@
 [1]: https://www.ietf.org/id/draft-onedm-t2trg-sdf-00.html
 [2]: https://onedm.org
 [3]: https://onedm.org/faq
+
+
+## Initial Milestones
+
+There is only one deliverable, the SDF specification.
+It is not currently foreseen that this will be split into multiple
+documents, but that is also not excluded.
+The plan is to evolve the specification in a regular rhythm, with a
+new Implementation Draft available about bi-monthly.
+
+* SDF specification ("SDF 1.0"), WG document adopted, September 2020
+* SDF specification ("SDF 1.1"), Implementation Draft, November 2020
+* SDF specification ("SDF 1.2"), Implementation Draft, February 2020
+* (continuing in the rhythm...)
+* SDF specification ("SDF 1.n"), PS to IESG, September 2021
+
