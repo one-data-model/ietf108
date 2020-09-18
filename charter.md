@@ -41,7 +41,7 @@
   using a fairly small set of network management protocols,
   whereas SDF is designed to span (and transitively unify) many existing interaction models already present.
   While YANG can be serialized to a variety of wire formats (XML, JSON, CBOR, ...),
-  the serialization is driven directly by the structure of the YANG.
+  the serialization is driven directly by the structure of the YANG; there is no separate "protocol binding" step as in the use of SDF.
 
   YANG also has an opinionated way in which the RPC is done.
   This is necessary in order to get the kind of cross-vendor interoperability needed for efforts in the Software Defined Networking.
@@ -83,4 +83,3 @@ new Implementation Draft available about bi-monthly.
 * SDF specification ("SDF 1.2"), Implementation Draft, February 2020
 * (continuing in the rhythm...)
 * SDF specification ("SDF 1.n"), PS to IESG, September 2021
-
