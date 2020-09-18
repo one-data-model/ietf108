@@ -46,7 +46,10 @@
 
   YANG also has an opinionated way in which the RPC is done.
   This is necessary in order to get the kind of cross-vendor interoperability needed for efforts in the Software Defined Networking.
-  On the other hand, SDF does not deal directly with serialization, dealing only in structure and semantics of data being interchanged, and leaving the existing IoT SDOs to do their own serialization.
+   Conversely, SDF does not deal directly with serialization at all,
+   modelling only the structure and semantics of the data being interchanged, hence leaving data
+   serialization (and RPC semantics) to other standards, most likely defined
+   by existing IoT SDOs.
 
 ## ASDF
 
