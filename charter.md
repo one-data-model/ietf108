@@ -44,8 +44,6 @@
    of wire formats (e.g., XML, JSON, CBOR, and others), the serialization is
    driven directly by the structure of the data models defined in YANG; there is no separate "protocol binding" step as in the use of SDF.
 
-  YANG also has an opinionated way in which the RPC is done.
-  This is necessary in order to get the kind of cross-vendor interoperability needed for efforts in the Software Defined Networking.
    Conversely, SDF does not deal directly with serialization at all,
    modelling only the structure and semantics of the data being interchanged, hence leaving data
    serialization (and RPC semantics) to other standards, most likely defined
