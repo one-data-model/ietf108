@@ -39,15 +39,18 @@
   The IETF also defines the YANG data modelling language (RFC 7950).
   YANG has a strong focus on modelling the management interface for network devices,
   using a fairly small set of network management protocols,
-  whereas SDF is designed to span (and transitively unify) many existing interaction models already present.
-    While data associated with a YANG schema can be serialized to a variety
-   of wire formats (e.g., XML, JSON, CBOR, and others), the serialization is
-   driven directly by the structure of the data models defined in YANG; there is no separate "protocol binding" step as in the use of SDF.
+  whereas SDF is designed to span (and transitively unify) many existing
+  interaction models already present.
 
-   Conversely, SDF does not deal directly with serialization at all,
-   modelling only the structure and semantics of the data being interchanged, hence leaving data
-   serialization (and RPC semantics) to other standards, most likely defined
-   by existing IoT SDOs.
+  While data associated with a YANG schema can be serialized to a variety
+  of wire formats (e.g., XML, JSON, CBOR, and others), the serialization is
+  driven directly by the structure of the data models defined in YANG; there
+  is no separate "protocol binding" step as in the use of SDF.
+
+  Conversely, SDF does not deal directly with serialization at all,
+  modelling only the structure and semantics of the data being interchanged,
+  hence leaving data serialization (and RPC semantics) to other standards,
+  most likely defined by existing IoT SDOs.
 
 ## ASDF
 
