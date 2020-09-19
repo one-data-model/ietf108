@@ -36,6 +36,19 @@
   ecosystems in a common way; they look towards the IETF for
   developing SDF 1.0 further into a high-quality specification.
 
+  The IETF also defines the YANG data modelling language (RFC 7950).
+  YANG has a strong focus on modelling the management interface for network devices,
+  using a fairly small set of network management protocols,
+  whereas SDF is designed to span (and transitively unify) many existing interaction models already present.
+    While data associated with a YANG schema can be serialized to a variety
+   of wire formats (e.g., XML, JSON, CBOR, and others), the serialization is
+   driven directly by the structure of the data models defined in YANG; there is no separate "protocol binding" step as in the use of SDF.
+
+   Conversely, SDF does not deal directly with serialization at all,
+   modelling only the structure and semantics of the data being interchanged, hence leaving data
+   serialization (and RPC semantics) to other standards, most likely defined
+   by existing IoT SDOs.
+
 ## ASDF
 
   The objective of the ASDF WG is to develop SDF to an IETF-quality
@@ -52,6 +65,7 @@
   and its WISHI program can be instrumental in engaging researchers
   and other SDOs in this space, for instance W3C WoT, which is working
   on Thing Description Templates and related specifications.
+
 
 [1]: https://www.ietf.org/id/draft-onedm-t2trg-sdf-00.html
 [2]: https://onedm.org
@@ -71,4 +85,3 @@ new Implementation Draft available about bi-monthly.
 * SDF specification ("SDF 1.2"), Implementation Draft, February 2020
 * (continuing in the rhythm...)
 * SDF specification ("SDF 1.n"), PS to IESG, September 2021
-
