@@ -26,7 +26,7 @@ for every class of IoT device, there is just a single model selected/created by
 the participating organizations, which everyone can adopt.
 
 As a common language for writing down these models, the Semantic Definition
-Format (SDF) was created, which can represent IoT Things, their composition
+Format (SDF, draft-onedm-t2trg-sdf) was created, which can represent IoT Things, their composition
 from reusable Objects, their Interaction Affordances (Properties, Actions,
 Events), and the data models relevant to describe these Affordances.  SDF
 represents these models in JSON, enabling re-use of specification formats such
@@ -34,12 +34,13 @@ as CDDL (RFC8610) and the formats proposed at json-schema.org and their
 tooling, for describing both the SDF format itself and the structure of the
 data to be modelled in SDF.
 
-Some 200 models in SDF format have been contributed by participating
+By July 2020, some 200 models in SDF format have been contributed by participating
 ecosystems; new models are being submitted continually. Version 1.0 of the SDF
 specification was published on the OneDM github repository and as an
 Internet-Draft. OneDM is now focusing on consolidating the body of submitted
 models and developing processes for arriving at harmonized models that span
-different industry ecosystems in a common way; they look to the IETF for
+different industry ecosystems in a common way; as expressed at the
+IETF108 ASDF BOF, they look to the IETF for
 developing SDF 1.0 further into a high-quality specification.
 
 The IETF also defines the YANG data modelling language (RFC 7950). YANG has a
@@ -68,7 +69,8 @@ The ASDF WG will work closely with the CBOR WG, home of the CDDL
 specification.  It will also engage the still active mailing list of the
 concluded JSON WG.  Recent proposals to form an IRTF formal description
 techniques (FDT) Research Group might lead to another collaboration
-partner.  The Thing-to-Thing Research Group (T2TRG) and its WISHI program
+partner.  The Thing-to-Thing Research Group (T2TRG) and its WISHI
+(Work on IoT Semantic/Hypermedia Interoperability, http://wishi.space) program
 can be instrumental in engaging researchers and other SDOs in this space,
 such as W3C Web of Things, which is working on Thing Description
 Templates and related specifications.
