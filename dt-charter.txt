@@ -2,17 +2,15 @@ A Semantic Definition Format for Data and Interactions of Things
 charter-ietf-asdf-00-02
 Document	Proposed charter		A Semantic Definition Format for Data and Interactions of Things WG (asdf)
 Title		A Semantic Definition Format for Data and Interactions of Things
-Last updated		2020-09-19
-State		Start Chartering/Rechartering (Internal Steering Group/IAB Review) Initial chartering
+Last updated		2020-10-06
+State		External Review (Message to Community, Selected by Secretariat) Initial chartering
 WG	State		Proposed
 IESG	Responsible AD		Barry Leiba
 Charter Edit AD		Barry Leiba
-Telechat date		(None)
-Has a BLOCK. Has enough positions to pass once BLOCK positions are resolved.
+Telechat date		On agenda of 2020-10-08 IESG telechat
 Send notices to		(None)
 Charter
-charter-ietf-asdf-00-02
-
+charter-ietf-asdf-00-03
 ## Background
 
 Data and interaction models of IoT devices today exhibit unneeded diversity
@@ -26,22 +24,22 @@ for every class of IoT device, there is just a single model selected/created by
 the participating organizations, which everyone can adopt.
 
 As a common language for writing down these models, the Semantic Definition
-Format (SDF, draft-onedm-t2trg-sdf) was created, which can represent IoT Things, their composition
-from reusable Objects, their Interaction Affordances (Properties, Actions,
-Events), and the data models relevant to describe these Affordances.  SDF
-represents these models in JSON, enabling re-use of specification formats such
-as CDDL (RFC8610) and the formats proposed at json-schema.org and their
-tooling, for describing both the SDF format itself and the structure of the
-data to be modelled in SDF.
+Format (SDF, draft-onedm-t2trg-sdf) was created, which can represent IoT
+Things, their composition from reusable Objects, their Interaction Affordances
+(Properties, Actions, Events), and the data models relevant to describe these
+Affordances.  SDF represents these models in JSON, enabling re-use of
+specification formats such as CDDL (RFC8610) and the formats proposed at
+json-schema.org and their tooling, for describing both the SDF format itself
+and the structure of the data to be modelled in SDF.
 
-By July 2020, some 200 models in SDF format have been contributed by participating
-ecosystems; new models are being submitted continually. Version 1.0 of the SDF
-specification was published on the OneDM github repository and as an
-Internet-Draft. OneDM is now focusing on consolidating the body of submitted
-models and developing processes for arriving at harmonized models that span
-different industry ecosystems in a common way; as expressed at the
-IETF108 ASDF BOF, they look to the IETF for
-developing SDF 1.0 further into a high-quality specification.
+By July 2020, some 200 models in SDF format have been contributed by
+participating ecosystems; new models are being submitted continually. Version
+1.0 of the SDF specification was published on the OneDM github repository and
+as an Internet-Draft. OneDM is now focusing on consolidating the body of
+submitted models and developing processes for arriving at harmonized models
+that span different industry ecosystems in a common way; as expressed at the
+IETF 108 ASDF BoF, they look to the IETF for developing SDF 1.0 further into a
+high-quality specification.
 
 The IETF also defines the YANG data modelling language (RFC 7950). YANG has a
 strong focus on modelling the management interface for network devices, using a
