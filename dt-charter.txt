@@ -1,8 +1,8 @@
 A Semantic Definition Format for Data and Interactions of Things
-charter-ietf-asdf-00-02
+charter-ietf-asdf-00-04
 Document	Proposed charter		A Semantic Definition Format for Data and Interactions of Things WG (asdf)
 Title		A Semantic Definition Format for Data and Interactions of Things
-Last updated		2020-10-06
+Last updated		2020-10-08
 State		External Review (Message to Community, Selected by Secretariat) Initial chartering
 WG	State		Proposed
 IESG	Responsible AD		Barry Leiba
@@ -10,7 +10,7 @@ Charter Edit AD		Barry Leiba
 Telechat date		On agenda of 2020-10-08 IESG telechat
 Send notices to		(None)
 Charter
-charter-ietf-asdf-00-03
+charter-ietf-asdf-00-04
 ## Background
 
 Data and interaction models of IoT devices today exhibit unneeded diversity
@@ -57,14 +57,14 @@ by existing IoT SDOs.
 
 ## The ASDF Working Group
 
-The objective of the ASDF working group is to develop SDF to an
-IETF-quality specification for Thing Interaction and Data Modelling,
-working with experts from OneDM and its contributing organizations.  On
-the way to that specification, further functionality requirements will be
-addressed that emerge in the usage of SDF for model harmonization.
+The objective of the ASDF working group is to develop SDF into a 
+standards-track specification for thing interaction and data modelling. In the 
+process of developing this specification, further functional requirements that 
+emerge in the usage of SDF for model harmonization will be addressed.
 
-The ASDF WG will work closely with the CBOR WG, home of the CDDL
-specification.  It will also engage the still active mailing list of the
+The ASDF WG will work with experts from OneDM and its contributing 
+organizations. In the IETF, it will work closely with the CBOR WG, home of the 
+CDDL specification.  It will also engage the still active mailing list of the
 concluded JSON WG.  Recent proposals to form an IRTF formal description
 techniques (FDT) Research Group might lead to another collaboration
 partner.  The Thing-to-Thing Research Group (T2TRG) and its WISHI
