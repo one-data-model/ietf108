@@ -1,5 +1,5 @@
 A Semantic Definition Format for Data and Interactions of Things
-charter-ietf-asdf-00-04
+charter-ietf-asdf-00-05
 Document	Proposed charter		A Semantic Definition Format for Data and Interactions of Things WG (asdf)
 Title		A Semantic Definition Format for Data and Interactions of Things
 Last updated		2020-10-08
@@ -10,7 +10,7 @@ Charter Edit AD		Barry Leiba
 Telechat date		On agenda of 2020-10-08 IESG telechat
 Send notices to		(None)
 Charter
-charter-ietf-asdf-00-04
+charter-ietf-asdf-00-05
 ## Background
 
 Data and interaction models of IoT devices today exhibit unneeded diversity
@@ -68,10 +68,10 @@ CDDL specification.  It will also engage the still active mailing list of the
 concluded JSON WG.  Recent proposals to form an IRTF formal description
 techniques (FDT) Research Group might lead to another collaboration
 partner.  ASDF will work with Thing-to-Thing Research Group (T2TRG)
-and its WISHI
-(Work on IoT Semantic/Hypermedia Interoperability, http://wishi.space) program
-to engage researchers and other SDOs in this space,
-such as W3C Web of Things, which is working on Thing Models and related specifications.
+and its WISHI (Work on IoT Semantic/Hypermedia Interoperability, 
+http://wishi.space)  program to engage researchers and other SDOs in this 
+space, such as W3C Web of Things, which is working on Thing Models and related 
+specifications.
 
 ## Proposed milestones
 
